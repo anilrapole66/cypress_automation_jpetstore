@@ -1,0 +1,43 @@
+# dependencies
+node_modules/
+
+# cypress cache
+.cypress/
+CypressCache/
+~/.cache/Cypress
+
+# test artifacts
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+cypress/reports/
+
+# mochawesome reports
+mochawesome-report/
+mochawesome.json
+report.json
+
+# logs
+logs/
+*.log
+npm-debug.log*
+
+# environment files
+.env
+.env.*
+cypress.env.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# coverage (if used)
+coverage/
+
+# build output
+dist/
+build/
